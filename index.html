@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Framework7</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+			
+		<!-- MENU -->
+		<section class="panel panel-left panel-cover">
+			<!-- Barra de menu -->
+			<div class="block panel-header">
+                <a href="#" class="panel-close">
+                    <i id="menu-icon" class="material-icons">close</i>
+					<span class="menu-title">GameCard</span>
+                </a>
+            </div>
+			<!-- Secciones de menu -->
+			<div class="list links-list">
+				<ul>
+				  <li><a href="/home/">Inicio</a></li>
+				  <li><a href="/biblioteca/">Biblioteca</a></li>
+				  <li><a href="/cart/">Carrito</a></li>
+				  <li><a href="/aboutus/">Acerca de</a></li>
+				</ul>
+			  </div>
+		</section>
+		
+		<!-- Contenedor de la interfaz -->
+		<div class="view view-main view-init">
+        
+			<section data-name="home" class="page">
+
+			  <!-- Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<!-- Lado izquierdo del menu -->
+					<div class="left">
+						<a href="#" class="link panel-open" data-panel="left">
+							<i class="material-icons">menu</i>
+						</a>
+					</div>
+
+					<div class="title">GameCard</div>	
+					
+					<!-- Lado derecho del menu -->
+					<div class="right">
+						<a href="/search/" class="link icon-only">
+							<i class="material-icons">search</i>
+						</a>
+						<a href="/cart/" class="link icon-only">
+							<i class="material-icons">shopping_cart</i>
+						</a>
+					</div>
+				</div>
+			  </nav>
+			
+
+
+			  <section class="page-content">
+				<!-- Banner -->
+				<div class="grid grid-cols-3">
+					<div class="swiper-wrapper">
+					  <div class="swiper-slide">
+						<a href="/sonic/"><img src="img/image 4.png" width="100%" height="auto"></a>
+					  </div>
+					</div>
+				</div>
+
+				<!-- Categorias -->
+				<div class="block">
+					<h2 class="section-title">Tarjetas de regalo</h2>
+					<div class="row">
+						<div class="col">
+							<a href="/games/">
+								<div class="gift-card">
+									<img src="img/image 6.png" width="100%" height="auto">
+								</div>
+								<p>Juegos</p>
+							</a>
+						</div>
+						<div class="col">
+							<a href="/giftcards/">
+								<div class="gift-card">
+									<img src="img/image 7.png" width="100%" height="auto">
+								</div>
+								<p>Gift Cards</p>
+							</a>
+						</div>
+						<div class="col">
+							<a href="/software/">
+								<div class="gift-card">
+									<img src="img/image 8.png" width="100%" height="auto">
+								</div>
+								<p>Software</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				 
+				<!-- SECCION JUEGOS-->
+				<div class="block">
+					<h2 class="section-title">Juegos</h2>
+					<a href="/sonic/">
+						<div class="game-card-2">
+							<img src="img/image 11.png" alt="">
+							<div class="game-info">
+								<h3>Sonic Frontiers</h3>
+								<p>Los mundos chocan en la nueva aventura de alta velocidad de Sonic the Hedgehog.</p>
+								<span class="price">$59.99</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="block">
+					<a href="mario.html">
+						<div class="game-card-2">
+							<img src="img/image 10 (1).png" alt="">
+							<div class="game-info">
+								<h3>Mario Kart Tour</h3>
+								<p>Compite con tus amigos en carreras muy divertidas y emocionantes.</p>
+								<span class="price">$59.99</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="block">
+					<a href="kirby.html">
+						<div class="game-card-2">
+							<img src="img/image 12.png" alt="">
+							<div class="game-info">
+								<h3>Kirby Adventure</h3>
+								<p>Explora junto a kirby un emocionante mundo de fantasia.</p>
+								<span class="price">$59.99</span>
+							</div>
+						</div>
+					</a>
+				</div>     
+				<div class="block">
+					<div class="game-banner">
+						<img src="img/image 13.png" alt="">
+					</div>
+				</div>
+				<div class="block">
+					<h2 class="section-title">Software</h2>
+					<a href="/mcaffe/">
+						<div class="game-card-2">
+							<img src="img/image 24.png" alt="">
+							<div class="game-info">
+								<h3>McAffe Internet Secure</h3>
+								<p>Protege tu equipo contra virus, amenazas en línea y ransomware con una solución de antivirus confiable.</p>
+								<span class="price">$29.99</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="block">
+					<a href="/adobe/">
+						<div class="game-card-2">
+							<img src="img/image 34.png" alt="">
+							<div class="game-info">
+								<h3>Adobe Creative Cloud</h3>
+								<p>Accede a todas las aplicaciones de Adobe en un único plan para diseñar, editar y crear contenido de forma profesional.</p>
+								<span class="price">$29.99</span>
+							</div>
+						</div>
+					</a>
+				</div> 
+				<div class="block">
+					<div class="game-banner">
+						<img src="img/image 15.png" alt="">
+					</div>
+				</div>
+				<div class="block">
+					<h2 class="section-title">Gift Cards</h2>
+					<a href="/itunes/">
+						<div class="game-card-2">
+							<img src="img/image (6).png" alt="">
+							<div class="game-info">
+								<h3>iTunes 10 USD</h3>
+								<p>Tarjeta de regalo canjeable en la tienda de iTunes, ideal para comprar música, apps y otros contenidos digitales.</p>
+								<span class="price">$9.99</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="block">
+					<a href="/steam/">
+						<div class="game-card-2">
+							<img src="img/image 32.png" alt="">
+							<div class="game-info">
+								<h3>Steam 50 USD</h3>
+								<p>Tarjeta de regalo canjeable en la plataforma de Steam, perfecta para adquirir juegos, expansiones y contenido adicional.</p>
+								<span class="price">$49.99</span>
+							</div>
+						</div>
+					</a>
+				</div>  
+				<div class="block">
+					<div class="game-banner">
+						<img src="img/image 16.png" alt="">
+					</div>
+				</div>
+				<br><br><br>
+			  </section> <!--/page-content -->
+
+			</section> <!--/page -->
+			
+			
+			<div class="toolbar toolbar-bottom ">
+				<p>©Copyright - Grupo #3 - Diseño Web II</p>
+			</div>
+			
+		</div><!--/view -->
+		
+		
+		
+		
+	</div><!--/app -->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+	
+	
+	
+</body>
+</html>

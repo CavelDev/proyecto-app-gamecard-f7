@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Framework7</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+			
+		
+		<!-- MENU -->
+		<section class="panel panel-left panel-cover">
+			<!-- Barra de menu -->
+			<div class="block panel-header">
+                <a href="#" class="panel-close">
+                    <i id="menu-icon" class="material-icons">close</i>
+					<span class="menu-title">GameCard</span>
+                </a>
+            </div>
+			<!-- Secciones de menu -->
+			<div class="list links-list">
+				<ul>
+				  <li><a href="/home/">Inicio</a></li>
+				  <li><a href="/biblioteca/">Biblioteca</a></li>
+				  <li><a href="/cart/">Carrito</a></li>
+				  <li><a href="/aboutus/">Acerca de</a></li>
+				</ul>
+			  </div>
+		</section>
+		
+		<div class="view view-main view-init">
+        
+			<section data-name="home" class="page">
+
+			  <!-- Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<!-- Lado izquierdo del menu -->
+					<div class="left">
+						<a href="#" class="link panel-open" data-panel="left">
+							<i class="material-icons">menu</i>
+						</a>
+
+						<!--
+						<a href="#" class="link back">
+							<i class="material-icons">arrow_back</i>
+						</a>
+						-->
+					</div>
+
+					<div class="searchbar-backdrop"></div>
+						<form class="searchbar">
+							<div class="searchbar-inner">
+								<div class="searchbar-input-wrap">
+								<input type="search" placeholder="Escribe aqui">
+								<i class="searchbar-icon"></i>
+								<span class="input-clear-button"></span>
+								</div>
+								<span class="searchbar-disable-button">Cancel</span>
+							</div>
+						</form>
+					
+					<!-- Lado derecho del menu -->
+					<div class="right">
+						<a href="/cart/" class="link icon-only">
+							<i class="material-icons">shopping_cart</i>
+						</a>
+					</div>
+				</div>
+			  </nav>
+
+			
+
+
+			  <section class="page-content">
+
+				
+
+				<!-- Categorias -->
+				<div class="block">
+					<h2 class="section-title">Tarjetas de regalo</h2>
+					<div class="row">
+						<div class="col">
+							<a href="/games/">
+								<div class="gift-card">
+									<img src="img/image 6.png" width="100%" height="auto">
+								</div>
+								<p>Juegos</p>
+							</a>
+						</div>
+						<div class="col">
+							<a href="/giftcards/">
+								<div class="gift-card">
+									<img src="img/image 7.png" width="100%" height="auto">
+								</div>
+								<p>Gift Cards</p>
+							</a>
+						</div>
+						<div class="col">
+							<a href="/software/">
+								<div class="gift-card">
+									<img src="img/image 8.png" width="100%" height="auto">
+								</div>
+								<p>Software</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				
+
+				
+				
+			  </section> <!--/page-content -->
+
+			</section> <!--/page -->
+			
+			
+			<div class="toolbar toolbar-bottom ">
+				<p>©Copyright - Grupo #3 - Diseño Web II</p>
+			</div>
+			
+		</div><!--/view -->
+		
+		
+		
+		
+	</div><!--/app -->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+	
+	
+	
+</body>
+</html>
